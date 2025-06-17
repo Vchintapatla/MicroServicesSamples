@@ -1,0 +1,6 @@
+@RatesServiceAPI_HostAddress = http://localhost:5118
+
+GET {{RatesServiceAPI_HostAddress}}/exchangeRates/
+Accept: application/json
+
+###
