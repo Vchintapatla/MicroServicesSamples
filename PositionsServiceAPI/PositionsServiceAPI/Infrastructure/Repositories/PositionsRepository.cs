@@ -1,8 +1,8 @@
-﻿using PositionsService.Domain.Interfaces;
-using PositionsService.Infrastructure.Data;
+﻿using PositionsServiceAPI.Domain.Interfaces;
+using PositionsServiceAPI.Infrastructure.Data;
 using RatesServiceAPI.Infrastrucutre.Data;
 
-namespace PositionsService.Infrastructure.Repositories
+namespace PositionsServiceAPI.Infrastructure.Repositories
 {
 	public class PositionsRepository : IPositionsRepository
 	{

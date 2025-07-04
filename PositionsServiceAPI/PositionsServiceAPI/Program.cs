@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using PositionsService.Application.Services;
-using PositionsService.Domain.Interfaces;
-using PositionsService.Infrastructure.Data;
-using PositionsService.Infrastructure.Repositories;
+using PositionsServiceAPI.Application.Services;
+using PositionsServiceAPI.Domain.Interfaces;
+using PositionsServiceAPI.Infrastructure.Data;
+using PositionsServiceAPI.Infrastructure.Repositories;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<PositionsServiceDbContext>(options =>
 												options.UseSqlServer(builder.Configuration.GetConnectionString("PositionsServiceDbContext") ?? throw new InvalidOperationException("Connection string 'PositionsServiceDbContext' not found.")));

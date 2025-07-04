@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using RatesServiceAPI.Infrastrucutre.Data;
 
-namespace PositionsService.Infrastructure.Data
+namespace PositionsServiceAPI.Infrastructure.Data
 {
 	public class PositionsServiceDbContext : DbContext
 	{

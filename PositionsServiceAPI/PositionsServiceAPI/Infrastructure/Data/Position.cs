@@ -1,4 +1,4 @@
-namespace PositionsService.Infrastructure.Data
+namespace PositionsServiceAPI.Infrastructure.Data
 {
 	public class Position
 	{

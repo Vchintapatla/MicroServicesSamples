@@ -1,11 +1,11 @@
 ﻿/// PositionsServices.cs
 /// This file has code to excute any application related code which can be accessed from controller
 ///
-using PositionsService.Domain.Interfaces;
-using PositionsService.Infrastructure.Data;
+using PositionsServiceAPI.Domain.Interfaces;
+using PositionsServiceAPI.Infrastructure.Data;
 using RatesServiceAPI.Infrastrucutre.Data;
 
-namespace PositionsService.Application.Services
+namespace PositionsServiceAPI.Application.Services
 {
 	public class PositionsServices
 	{

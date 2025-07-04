@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
-using PositionsService.Application.Services;
-using PositionsService.Infrastructure.Data;
+using PositionsServiceAPI.Application.Services;
+using PositionsServiceAPI.Infrastructure.Data;
 using RatesServiceAPI.Infrastrucutre.Data;
 
-namespace PositionsService.Controllers
+namespace PositionsServiceAPI.Controllers
 {
 	[ApiController]
 	[Route("[controller]")]
